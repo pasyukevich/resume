@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Eugene Pasiukevich - Senior Software Engineer with 7 years of experience delivering scalable solutions, specializing in React Native, Node.js, TypeScript, and cloud technologies.">
+        content="Eugene Pasiukevich - Senior Software Engineer with extensive experience delivering scalable solutions, specializing in React Native, Node.js, TypeScript, and cloud technologies.">
     <meta name="keywords"
         content="Eugene Pasiukevich, Senior Software Engineer, Full Stack Developer, React Native, Node.js, TypeScript, AWS, PostgreSQL, MongoDB, Redis">
     <title>Eugene Pasiukevich | Senior Software Engineer</title>
@@ -82,7 +82,7 @@
     <section class="container my-5">
         <h2 class="text-center mb-5">Summary</h2>
         <ul>
-            <li>Experienced in designing and delivering high-performance, scalable solutions for various industries including finance, healthcare, and social networks.</li>
+            <li>Over <span id="experience-years"></span> years of experience designing and delivering high-performance, scalable solutions.</li>
             <li>Specialized in creating seamless, user-focused applications with React Native and modern web technologies.</li>
             <li>Proficient in addressing complex challenges, optimizing performance, and building secure systems.</li>
             <li>Enthusiastic about mentoring and sharing knowledge, fostering collaborative and productive team environments.</li>
@@ -128,6 +128,13 @@
     <footer class="text-center py-3">
         <p>&copy; 2025 Eugene Pasiukevich. All rights reserved.</p>
     </footer>
+
+    <script>
+        const professionalStartYear = 2018;
+        const currentYear = new Date().getFullYear();
+        const experienceYears = currentYear - professionalStartYear;
+        document.getElementById("experience-years").textContent = experienceYears;
+    </script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
